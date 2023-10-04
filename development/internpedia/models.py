@@ -15,6 +15,9 @@ class Internship(models.Model):
     company = models.ForeignKey(Company, on_delete=models.CASCADE) # if a company is deleted from our website, all internships under that company will also be deleted
     description = models.TextField()
 
+    #note: remember we want to recommend TRENDING internships or reviews
+    #what are things we can keep track of to signify that an internship or review is trending?
+
 #Our model for individual reviews.
 class Review(models.Model):
     review_text = models.TextField()
