@@ -10,8 +10,6 @@ class Company(models.Model):
 # Our model for individual internship listings
 class Internship(models.Model):
     title = models.CharField(max_length=200)
-    role = models.CharField(max_length=100)
-    remote = models.BooleanField() #True if Remote, #False if On-Site
     company = models.ForeignKey(Company, on_delete=models.CASCADE) # if a company is deleted from our website, all internships under that company will also be deleted
     description = models.TextField()
 
