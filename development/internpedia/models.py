@@ -18,4 +18,35 @@ class Internship(models.Model):
 
 #Our model for individual reviews.
 class Review(models.Model):
+    internship = models.ForeignKey(Company, on_delete=models.CASCADE)
     review_text = models.TextField()
+    startDate = models.DateField(auto_now_add=True)
+    endDate = models.DateField(auto_now_add=True)
+
+    onestar = 1
+    twostar = 2
+    threestar = 3
+    fourstar = 4
+    fivestar = 5
+    class starRating(models.IntegerChoices):
+        onestar = 1
+        twostar = 2
+        threestar = 3
+        fourstar = 4
+        fivestar = 5
+
+    rating = models.IntegerField(choices=starRating.choices,default=threestar)
+
+#class Comment(models.Model):
+#    post = models.ForeignKey(Review,on_delete=models.CASCADE,related_name='comments')
+#    name = models.CharField(max_length=80)
+#    email = models.EmailField()
+#    body = models.TextField()
+#    created_on = models.DateTimeField(auto_now_add=True)
+#    active = models.BooleanField(default=False)
+
+#    class Meta:
+#        ordering = ['created_on']
+
+#    def __str__(self):
+#        return 'Comment {} by {}'.format(self.body, self.name)
