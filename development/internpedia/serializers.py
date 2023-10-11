@@ -11,7 +11,12 @@ class CompanySerializer(serializers.ModelSerializer):
 class InternshipSerializer(serializers.ModelSerializer):
     class Meta:
         model = Internship
-        ## TODO
+        fields = '__all__'
+        
+        def to_representation(self, instance):
+            instance.avgNumRating = round(float(instance.avgNumRating), 2)
+            instance.site = instance.get_site_display()
+            return super().to_representation(instance)
 
         
 
