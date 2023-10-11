@@ -23,5 +23,5 @@ class InternshipSerializer(serializers.ModelSerializer):
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
-        ## TODO
+        fields = ('internship','title','startDate','endDate','rating')
 
