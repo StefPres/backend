@@ -5,6 +5,7 @@ class Company(models.Model):
     company_logo = models.ImageField()
     industry = models.CharField(max_length=100)
     description = models.TextField()
+    website = models.URLField()
 
 
 # Our model for individual internship listings
@@ -15,7 +16,7 @@ class Internship(models.Model):
     description = models.TextField()
     location = models.CharField(max_length=100)
     site = models.CharField(max_length=7, choices = place)
-    IsPaid = models.BooleanField()
+    isPaid = models.BooleanField()
     avgNumRating = models.DecimalField(max_digits=3, decimal_places=2)
     qualifications = models.TextField()
 
@@ -25,7 +26,7 @@ class Internship(models.Model):
 
 #Our model for individual reviews.
 class Review(models.Model):
-    internship = models.ForeignKey(Company, on_delete=models.CASCADE)
+    internship = models.ForeignKey(Internship, on_delete=models.CASCADE)
     review_text = models.TextField()
     startDate = models.DateField(auto_now_add=True)
     endDate = models.DateField(auto_now_add=True)
