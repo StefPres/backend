@@ -6,8 +6,6 @@ class CompanySerializer(serializers.ModelSerializer):
         model = Company
         fields = '__all__'
 
-
-
 class InternshipSerializer(serializers.ModelSerializer):
     class Meta:
         model = Internship
@@ -17,8 +15,6 @@ class InternshipSerializer(serializers.ModelSerializer):
         instance.avgNumRating = round(float(instance.avgNumRating), 2)
         instance.site = instance.get_site_display()
         return super().to_representation(instance)
-
-        
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
