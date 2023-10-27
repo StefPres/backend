@@ -2,6 +2,7 @@ from django.db import models
 
 #Our model for individual companies, containing info relevant to the company
 class Company(models.Model): 
+    title = models.CharField(max_length=200)
     company_logo = models.ImageField()
     industry = models.CharField(max_length=100)
     description = models.TextField()
