@@ -40,19 +40,39 @@ class Review(models.Model):
     startDate = models.DateField(auto_now_add=True)
     endDate = models.DateField(auto_now_add=True)
 
+
     onestar = 1
     twostar = 2
     threestar = 3
     fourstar = 4
     fivestar = 5
+
     class starRating(models.IntegerChoices):
         onestar = 1
         twostar = 2
         threestar = 3
         fourstar = 4
         fivestar = 5
-
+    
     rating = models.IntegerField(choices=starRating.choices,default=threestar)
+    votes = models.ManyToManyField('Vote', related_name='reviews')
+
+    def upvote_count(self):
+        return self.votes.filter(voted=True).count()
+    
+    def downvote_count(self):
+        return self.votes.filter(voted=False).count()
+
+
+class Vote(models.Model):
+    review = models.ForeignKey(Review, on_delete=models.CASCADE)
+    voted = models.BooleanField(default=False)
+    
+    def toggle_vote(self):
+        self.voted = not self.voted
+        self.save()
+
+
 
 #class Comment(models.Model):
 #    post = models.ForeignKey(Review,on_delete=models.CASCADE,related_name='comments')
