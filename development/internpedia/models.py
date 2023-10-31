@@ -16,6 +16,7 @@ class Internship(models.Model):
     description = models.TextField()
     location = models.CharField(max_length=100)
     paid = models.BooleanField()
+    salary = models.DecimalField()
     rating = models.DecimalField(max_digits=3, decimal_places=2)
     qualifications = models.TextField()
 
@@ -36,9 +37,11 @@ class Internship(models.Model):
 #Our model for individual reviews.
 class Review(models.Model):
     internship = models.ForeignKey(Internship, on_delete=models.CASCADE)
+    title = models.CharField(max_length=200)
     review_text = models.TextField()
     startDate = models.DateField(auto_now_add=True)
     endDate = models.DateField(auto_now_add=True)
+    returnOffer = models.BooleanField()
 
 
     onestar = 1
@@ -74,16 +77,16 @@ class Vote(models.Model):
 
 
 
-#class Comment(models.Model):
-#    post = models.ForeignKey(Review,on_delete=models.CASCADE,related_name='comments')
-#    name = models.CharField(max_length=80)
-#    email = models.EmailField()
-#    body = models.TextField()
-#    created_on = models.DateTimeField(auto_now_add=True)
-#    active = models.BooleanField(default=False)
+class Comment(models.Model):
+    post = models.ForeignKey(Review,on_delete=models.CASCADE,related_name='comments')
+    name = models.CharField(max_length=80)
+    email = models.EmailField()
+    body = models.TextField()
+    created_on = models.DateTimeField(auto_now_add=True)
+    active = models.BooleanField(default=False)
+    
+    class Meta:
+        ordering = ['created_on']
 
-#    class Meta:
-#        ordering = ['created_on']
-
-#    def __str__(self):
-#        return 'Comment {} by {}'.format(self.body, self.name)
+    def __str__(self):
+        return 'Comment {} by {}'.format(self.body, self.name)
