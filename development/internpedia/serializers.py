@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Company, Internship, Review
+from .models import Company, Internship, Review, Vote
 
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:
@@ -19,6 +19,11 @@ class InternshipSerializer(serializers.ModelSerializer):
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
+        fields = '__all__'
+
+class VoteSerializer(serializers.ModelSerializer):
+    class Meta: 
+        model = Vote 
         fields = '__all__'
 
 class CommentSerializer(serializers.ModelSerializer):

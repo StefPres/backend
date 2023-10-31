@@ -22,6 +22,8 @@ from internpedia import views
 router = routers.DefaultRouter()
 router.register(r'Internship', views.InternshipView, 'Internship')
 router.register(r'Company', views.CompanyView, 'Company')
+router.register(r'Review', views.ReviewView, 'Review')
+router.register(r'Vote', views.VoteView, 'Vote')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
