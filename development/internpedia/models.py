@@ -1,4 +1,6 @@
 from django.db import models
+from django.db.models import Avg
+
 
 #Our model for individual companies, containing info relevant to the company
 class Company(models.Model): 
@@ -16,9 +18,45 @@ class Internship(models.Model):
     description = models.TextField()
     location = models.CharField(max_length=100)
     paid = models.BooleanField()
-    salary = models.DecimalField()
-    rating = models.DecimalField(max_digits=3, decimal_places=2)
-    qualifications = models.TextField()
+    rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.0)
+
+    def update_rating(self):
+        avg_rating = self.review.aggregate(Avg('rating'))['rating__avg']
+        if avg_rating is not None:
+            self.rating = round(avg_rating, 2)
+        else:
+            self.rating = 0.0
+    
+    def save(self, *args, **kwargs):
+        self.update_rating()
+        super().save(*args, **kwargs)
+
+    #note: remember we want to recommend TRENDING internships or reviews
+    #what are things we can keep track of to signify that an internship or review is trending?
+
+#Our model for individual reviews.
+class Review(models.Model):
+    internship = models.ForeignKey(Internship, on_delete=models.CASCADE, related_name="review")
+    review_text = models.TextField()
+    startDate = models.DateField(auto_now_add=True)
+    endDate = models.DateField(auto_now_add=True)
+    paid = models.BooleanField()
+    hourly_wage = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
+    yearly_salary = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
+
+    onestar = 1
+    twostar = 2
+    threestar = 3
+    fourstar = 4
+    fivestar = 5
+    class starRating(models.IntegerChoices):
+        onestar = 1
+        twostar = 2
+        threestar = 3
+        fourstar = 4
+        fivestar = 5
+
+    rating = models.IntegerField(choices=starRating.choices,default=threestar)
 
     On_Site = 'On-Site'
     Remote = 'Remote'
@@ -31,33 +69,6 @@ class Internship(models.Model):
     
     site = models.TextField(choices=places.choices)
 
-    #note: remember we want to recommend TRENDING internships or reviews
-    #what are things we can keep track of to signify that an internship or review is trending?
-
-#Our model for individual reviews.
-class Review(models.Model):
-    internship = models.ForeignKey(Internship, on_delete=models.CASCADE)
-    title = models.CharField(max_length=200)
-    review_text = models.TextField()
-    startDate = models.DateField(auto_now_add=True)
-    endDate = models.DateField(auto_now_add=True)
-    returnOffer = models.BooleanField()
-
-
-    onestar = 1
-    twostar = 2
-    threestar = 3
-    fourstar = 4
-    fivestar = 5
-
-    class starRating(models.IntegerChoices):
-        onestar = 1
-        twostar = 2
-        threestar = 3
-        fourstar = 4
-        fivestar = 5
-    
-    rating = models.IntegerField(choices=starRating.choices,default=threestar)
     votes = models.ManyToManyField('Vote', related_name='reviews')
 
     def upvote_count(self):
@@ -76,15 +87,12 @@ class Vote(models.Model):
         self.save()
 
 
-
 class Comment(models.Model):
     post = models.ForeignKey(Review,on_delete=models.CASCADE,related_name='comments')
-    name = models.CharField(max_length=80)
-    email = models.EmailField()
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     active = models.BooleanField(default=False)
-    
+
     class Meta:
         ordering = ['created_on']
 
