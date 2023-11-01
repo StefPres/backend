@@ -5,10 +5,10 @@ from .models import Review
 from .models import Vote
 
 class InternshipAdmin(admin.ModelAdmin):
-    list_display = ('company','title', 'description', 'site', 'rating','location','paid','qualifications')
+    list_display = ('company','title', 'description', 'rating','location','paid')
 
 class CompanyAdmin(admin.ModelAdmin):
-    list_display = ('company_logo', 'industry', 'description', 'website')
+    list_display = ('title', 'company_logo', 'industry', 'description', 'website')
 
 class ReviewAdmin(admin.ModelAdmin):
     def downvote_count(self):
@@ -25,7 +25,7 @@ class ReviewAdmin(admin.ModelAdmin):
 
     get_downvotes.short_description = 'Downvotes'
 
-    list_display = ('internship', 'review_text', 'startDate', 'endDate', 'rating','get_upvotes','get_downvotes')
+    list_display = ('internship', 'review_text', 'site', 'startDate', 'endDate', 'rating','paid', 'hourly_wage', 'yearly_salary', 'get_upvotes','get_downvotes')
 
 class VoteAdmin(admin.ModelAdmin):
     list_display = ('review', 'voted')
