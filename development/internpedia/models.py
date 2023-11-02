@@ -71,13 +71,13 @@ class Review(models.Model):
 
     votes = models.ManyToManyField('Vote', related_name='reviews')
 
+    def downvote_count(self):
+        return self.votes.filter(voted=False).count()
+    
     def upvote_count(self):
         return self.votes.filter(voted=True).count()
     
-    def downvote_count(self):
-        return self.votes.filter(voted=False).count()
-
-
+    
 class Vote(models.Model):
     review = models.ForeignKey(Review, on_delete=models.CASCADE)
     voted = models.BooleanField(default=False)
@@ -98,3 +98,15 @@ class Comment(models.Model):
 
     def __str__(self):
         return 'Comment {} by {}'.format(self.body, self.name)
+
+class User(models.Model):
+    email = models.EmailField(unique=True)
+    username = models.CharField(max_length=30, unique=True)
+    firstname = models.CharField(max_length=747, blank=True)
+    lastname = models.CharField(max_length=747, blank=True)
+    password = models.CharField(max_length=128, unique=True)
+    confirmPass = models.CharField(max_length=128, unique=True)
+
+    reviews = models.ManyToManyField('Review', related_name='users')
+
+    

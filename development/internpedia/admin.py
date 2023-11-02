@@ -1,8 +1,5 @@
 from django.contrib import admin
-from .models import Internship
-from .models import Company
-from .models import Review
-from .models import Vote
+from .models import Internship, Company, Review, Vote, User
 
 class InternshipAdmin(admin.ModelAdmin):
     list_display = ('company','title', 'description', 'rating','location','paid')
@@ -23,15 +20,20 @@ class ReviewAdmin(admin.ModelAdmin):
     def get_downvotes(self, obj):
         return obj.downvote_count()
 
-    get_downvotes.short_description = 'Downvotes'
-
     list_display = ('internship', 'review_text', 'site', 'startDate', 'endDate', 'rating','paid', 'hourly_wage', 'yearly_salary', 'get_upvotes','get_downvotes')
 
 class VoteAdmin(admin.ModelAdmin):
     list_display = ('review', 'voted')
 
+class UserAdmin(admin.ModelAdmin):
+    
+    def display_reviews(self, obj):
+        return ", ".join([str(review) for review in obj.reviews.all()])
+    
+    list_display = ('firstname','lastname','username','email','password', 'confirmPass','display_reviews')
 
 admin.site.register(Internship, InternshipAdmin)
 admin.site.register(Company, CompanyAdmin)
 admin.site.register(Review, ReviewAdmin)
 admin.site.register(Vote, VoteAdmin)
+admin.site.register(User, UserAdmin)

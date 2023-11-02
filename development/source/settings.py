@@ -131,3 +131,4 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Add your frontend URL here
     "https://internpedia.com",
 ]
+
