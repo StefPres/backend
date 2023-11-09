@@ -10,6 +10,9 @@ class Company(models.Model):
     description = models.TextField()
     website = models.URLField()
 
+    def __str__(self):
+        return self.title
+
 
 # Our model for individual internship listings
 class Internship(models.Model):
@@ -30,6 +33,9 @@ class Internship(models.Model):
     def save(self, *args, **kwargs):
         self.update_rating()
         super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.title
 
     #note: remember we want to recommend TRENDING internships or reviews
     #what are things we can keep track of to signify that an internship or review is trending?
@@ -76,6 +82,9 @@ class Review(models.Model):
     
     def downvote_count(self):
         return self.votes.filter(voted=False).count()
+
+    def __str__(self):
+        return self.title
 
 
 class Vote(models.Model):
