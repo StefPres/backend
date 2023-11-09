@@ -7,7 +7,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
-        for row in csv.DictReader(open('./swe_companies.csv')):
+        for row in csv.DictReader(open('./design_companies.csv')):
             company = Company(
                     title=row['title'],
                     company_logo=row['logo'],
