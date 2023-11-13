@@ -1,0 +1,446 @@
+title,company,paid,location,description
+Embedded Software Engineer Intern (AES),Analog Devices,TRUE,"Wilmington, MA","The Automotive Electrification and Sustainable Energy (AES) BU's purpose is to engineer a decarbonized, cleaner, and a sustainable electrified future. THE AES BU supports customers with break-through technology to convert, manage, and store electrical power by developing solutions for the digitized grid, renewable energy generation, energy storage, EV charging infrastructure, smart meters, and electrified powertrain. Key responsibilities include working with a broad team of ADI engineers in the business unit and across ADI’s technology teams to write embedded software and integrate it into full system solutions for electric vehicle chargers and energy storage solutions.
+
+Responsibilities include, but not limited to:
+
+Primary responsibilities include implementing code at all levels of embedded platforms, from boot, interrupt, and system code to production applications. Responsibilities include troubleshooting evaluation board and hardware as necessary, designing and running experiments to validate the quality of the embedded system, and embedded prototyping, including:
+
+Write software to implement system solutions for electric vehicle charging and battery storage applications.
+Integrate same software on microcontrollers, in FPGAs or DSPs, and on third party boards.
+Integrate and troubleshoot software and hardware on evaluation boards.
+Define and implement software architecture for eval board testing and deployment plans.
+Design and implement regression testing regimes to validate software quality."
+Engineer Intern,ARA,TRUE,"Raleigh, NC","Applied Research Associates, Inc. is seeking interns to support multiple projects. Our professional software development team has designed and produced software systems ranging from integrated multi-disciplinary design and optimization systems to 3D interactive design/analysis systems, weapons effects and operational mission planning systems, electronic technical manuals, cyber security applications, and multimedia database management systems.
+
+Responsibilities
+
+The ideal candidate will have an active interest in applying math/statistics/engineering concepts to solve multi-disciplinary problems. The candidate should be familiar with improving/optimizing/tuning existing algorithms as well as developing new algorithms from scratch. This position will include design and development of engineering and physics-based methodologies, analytical algorithms, and software tools. The candidate should demonstrate a hands-on approach to problem-solving and must be willing to actively participate in the evaluation of algorithm and system performance."
+"Avionics Software, Computer Science, Computer Science Engineering Intern",BLUE ORIGIN,TRUE,"Denver, CO","Interns work directly with our experienced engineers on projects in support of our business units. Internships are full time, 12 weeks.
+
+Intern projects may involve many aspects of applied SW development including, but not limited to the following:
+
+Aerospace Software Applications – share in the team’s impact on all aspects of design, develop, and testing of software used to “fly” rockets on mission operations without ever leaving the launchpad! Every day, you will innovate to build the frameworks and tools needed to integrate various spaceflight systems with model simulations. Your expertise will directly contribute to building real time simulations, user experience with front ends, restful backends, automated platforms, hybrid cloud infrastructure, and tooling.
+
+Avionics Software - contribute to the design, development and testing of avionics hardware and software for programs ranging from orbital rockets, ground systems, test stands, to moon landers.
+
+Mission Control Software– contribute to ground software systems and tools that enable us to test and fly our vehicles. You’ll join our team as we work to continuously improve our product, internal tools, and processes with the goal of automating and testing everything in order to make it fast and make it scale."
+IT Application Development (Web Development & Salesforce) Intern,Builders FirstSource,TRUE,"Irving, TX","BFS is looking for a Software Engineer Intern who is driven to learn and innovate by providing creative technical solutions to business problems. This position requires a software background and experience in designing and developing solutions of moderate complexity. The individual creates new code and modifies existing code to meet requirements. They advise judgment in devising program logic and adapting standard programming procedures, and with great transparency, obtain advice when specifications are unclear or unavailable. If you have great programming skills and a passion for creating and delivering innovative solutions, you are the right fit for the job! For this position, it is essential to have responsibility, creativity, and drive to bring in change through continuous improvement.
+
+Essential Duties And Responsibilities
+
+Perform programming, coding, testing, and documentation for moderate to complex projects.
+Strong understanding of object-oriented programming
+Familiarity with one or more programming languages such as .Net, HTML5/CSS3, JavaScript, Swift, React Js, Angular Or experience in configuring/developing on the Salesforce platform and
+Familiarity with code versioning tools and DevOps.
+Familiarity with data analytics and reporting is a plus.
+Familiarity with Agile processes and product model is a plus.
+Monitor and Improve the quality and performance of business processes and applications
+Experience with writing SQL queries, Stored Procedures, views, and functions (SQL Server)
+Perform troubleshooting and debugging activity by providing analysis of problems and recommended solutions.
+Work independently or on team projects as needed.
+Other duties as assigned by company management"
+Engineer Intern,CITY OF SANIBEL,TRUE,"Sanibel, TX","Serves under the supervision of the Deputy of Public Works, responsible for technical engineering work for Engineering and Public Works projects. Serves as project manager and/or designer of moderately difficult Public Works projects and is responsible for various aspects of planning, design, permitting, bidding and construction services. All engineering work is performed under the supervision and direction of a Professional Engineer registered in the State of Florida.
+
+Duties include:
+
+- Manages and performs engineering design of moderately complex Public Works projects.
+- Monitors consultants’ efforts from inception to completion.
+- Reviews survey and drafting work.
+- Ensures appropriate ordinances, codes and regulations are followed for each project.
+- Responds to inquiries and meets with the public, developers, permitting agencies, consultants, contractors, and other City staff.
+- Prepares engineers’ cost estimates and writes specifications and contract documents. Provides cost data for the City budget.
+- Reviews applications for development to assure compliance with City, State and Federal source.
+- Applies for construction and maintenance permits from the appropriate local, State and Federal source.
+- Applies computer assisted engineering and design software and equipment to perform engineering tasks.
+- Other duties as assigned."
+Software Engineering Intern,Collins Aerospace,TRUE,"Cedar Rapids, IA","This Software Engineer Intern will be a member of the ARINC 661 Graphics Server (AGS) team. The AGS team works on the graphics server for displays on the Business Jets, Regional Aircrafts, Commercial Aircrafts, and Military Aircrafts. The candidate will help with requirements capture and design and develop embedded software in the C++ language. The candidate will also test and verify the developed software to Design Assurance Level A fidelity per the DO-178C standard.
+
+What YOU will do:
+
+You will be an active team player in the development of flight critical avionics systems.
+You will utilize embedded operating systems, C/C++ code, and a host of other technologies in creative ways for a new product development.
+You will contribute to your team by asking questions, receiving help, brainstorming ideas, helping others, and promoting a collaborative teaming environment.
+You will have responsibility for tasks and mentors you may use for assistance."
+Software Design Intern,Daktronics,TRUE,"Rapid City, SD","As a Daktronics Software Intern, you will put your degree to the test using cutting edge technology to troubleshoot and test production code for high-end video processing used by real customers. You will write code to enhance existing Daktronics software components by adding features or tracking down and fixing bugs. You will actively engage in business transactions and experience the satisfaction of knowing that something that wasn’t working yesterday is working for our customer today because of your software solutions and problem-solving skills. And sometimes, you will even see your work on national television!
+
+You will also work with a team of developers and professionals to design, develop, and deliver software solutions to various Daktronics customers and business groups. You will primarily focus on:
+
+Application Development: Enhancement and maintenance of our current applications and solutions along with design and development of new software applications using Microsoft Visual Studio.
+Programming Languages: Most of the work would be done in the C#, JavaScript, and Typescript software development languages.
+Team Collaboration: Work within a larger development team to solve problems.
+Testing and Documentation: Write unit tests for existing code along with assisting in the development of software product requirements and design documentation.
+Perform other duties as assigned or needed to support the efforts of Daktronics."
+CSG Cloud Software Security (CSS) Intern,Dell Technologies,TRUE,"Round Rock, TX","This role is with Dell Technologies. WayUp is partnering with Dell Technologies to hire top talent.
+
+Join us as a CSG Cloud Software Security Intern on our Client Solutions Group team in Round Rock, Texas to do the best work of your career and make a profound social impact. What you’ll achieve Dell Technologies Specialty Client Organization is seeking summer interns. This internship is geared towards individuals who have an interest in sales, along with aspirations to advance to leadership or outsides sales positions. Our Interns will participate in a customer outreach campaign promoting end user solutions. You will be trained and equipped with the latest resources to represent Dell Technologies in the marketplace.
+
+Each intern will be aligned to multiple Dell Technologies team members for mentoring, guidance and, understanding of the #SimplyTheBest culture promoted within the organization. You will:
+
+Have regular mentoring and coaching from tenured Dell Technologies team members.
+Attend multiple Global Intern events – (Executive Meet & Greets, Career & Personal Branding Guidance, General Networking & Just for Fun Events).
+Collaborate with fellow interns building new friendships and sharing best practices.
+Foster a Network of mentors and contacts within Dell Technologies.
+Build and develop a final presentation to be shared with Vice Presidents of Dell Client Solutions Group. Take the first step towards your dream career Every Dell Technologies team member brings something unique to the table. Here’s what we are looking for with this role: Essential Requirements
+Pursuing a Bachelor’s Degree
+Enjoy interacting with others and see yourself as a promoter
+Energized by innovation and comfortable thinking outside of the box
+Work well in team environments
+Open to coaching, feedback and willing to implement
+Previous work, school, or community leadership experience is a plus Dell’s Flexible & Hybrid Work Culture At Dell Technologies, we believe our best work is done when flexibility is offered. We know that freedom and flexibility are crucial to all our employees no matter where you are located and our flexible and hybrid work style allows team members to have the freedom to ideate, be innovative, and drive results their way. To learn more about our work culture, please visit our [locations](https://jobs.dell.com/locations) page. Compensation Dell is committed to fair and equitable compensation practices. The pay range for this position is $15.03 - $24.20 an hour depending on location.
+Who we are _With more than 100,000 team members globally, we promote an environment that is rooted in the entrepreneurial spirit in which the company was founded. Dell’s team members are committed to serving our communities, regularly volunteering for over 1,500 non-profit organizations. The company has also received many accolades from employer of choice to energy conservation. Our team members follow an open approach to technology innovation and believe that technology is essential for human success._ Why work with us?
+Life at Dell means collaborating with dedicated professionals with a passion for people development. Along with how technology enables human potential.
+When we see something that could be improved, we get to work inventing the solution.
+Our people demonstrate our winning culture through positive and meaningful relationships.
+We invest in our people and offer a series of programs that enables them to pursue a career that fulfills their potential.
+Our team members’ health and wellness are our priority as well as rewarding them for their hard work. Application closing date: December 1, 2023 Dell Technologies is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment. Read the full Equal Employment Opportunity Policy [here](https://jobs.dell.com/equal-employment-opportunity-policy-statement)."
+Software QA Intern,Dolby Laboratories,TRUE,"Dedham, MA","Join the leader in entertainment innovation and help us design the future. At Dolby, science meets art, and high tech means more than computer code. As a member of the Dolby team, you’ll see and hear the results of your work everywhere, from movie theaters to smartphones. We continue to revolutionize how people create, deliver, and enjoy entertainment worldwide. We have an environment of state-of-the art R&D with a culture – big enough to give you all the resources you need, and small enough so you can make a real difference. You’ll be working on the development, implementation, test engineering and quality assurance of cutting-edge imaging/video processing algorithms, Dolby Vision and related technologies. Mentored by our experienced senior engineers, your work will contribute to our overall product and technology roadmap.
+
+Responsibilities:
+
+Perform software development, create test setups/experiments related to various mobile platforms or other consumer electronic devices.
+Partner with technical writers to provide and review technical data relating to test suite going into technical publication
+Design, develop and execute test cases targeted to test a variety of cutting-edge Dolby Imaging/Video algorithms and software.
+Test and evaluate the Dolby Vision video processing technologies and new features with respect to reliability, accuracy and usability.
+Provide feedback on specific features and record all bugs and issues encountered during testing.
+Maintain and enhance the test-setup including hardware, software and Test Automation environments.
+Help define best practices for source control, continuous integration, automated testing and release management.
+Create tools for internal use to support software engineering best practices
+Produce and maintain useful and usable documentation of work
+"
+Modeling & Simulation Engineer or Analyst or Software Developer,"Dynetics, Inc.",TRUE,"Dayton, OH","Leidos, Dynetics Group is looking for a talented Modeling & Simulation Engineer or Analyst within the Sensor Systems Analysis and Engineering Department (SSA&E).
+
+Come Join a Diverse Team Of Junior To Senior Software Developers, Engineers, And Scientists To Jointly Create Unique Solutions For Complex Problems. Our Team Solves Important Problems That Make a Difference, Supporting Our Customers In The Current And Future Defense Of Our Nation— Primarily In The Areas Of Sensor Integration, Testing, Characterization, Modeling, Simulation, Data Analysis, And Algorithm Development For Electro-optical / Infrared (EO/IR) And Acoustic Systems. Specific Applications Of This Include
+Aircraft survivability (infrared countermeasure program support and testing)
+Image-based navigation
+Image processing, statistical analysis, and machine learning algorithm development
+Gimbal modeling
+Hardware-in-the-loop
+Mechanical design and threat modeling
+Missile signature modeling, prediction, and analysis
+High-performance and GPU-accelerated software development
+Target detection, tracking, and discrimination
+You’ll work within an established and very skilled team of engineers and scientists, contributing to various projects which often require analyzing, understanding, and modeling complex, real-world phenomena to support design and decision making.
+
+Joining our team offers the opportunity to work with experts in their field and grow your career in an area that is appealing to you. You will be given the opportunity to take responsibility for challenging problems of your own and provide important contributions to ongoing programs. Because of this, we seek team members that are driven and engaged in their work while simultaneously demonstrating high character, given that you will often be working on sensitive and unique problems which require a high degree of trust from our customers."
+Software Engineering Intern,Elevance Health,TRUE,"Indianapolis, IN","A Software Engineering Intern will be responsible for designing and developing technology solutions for enterprise programs by interacting with business and technical resources to support the delivery of technical enterprise deliverables.
+
+Functions OR Examples Of Projects For This Role
+
+Developing Technical solutions from business requirements utilizing modern programming languages, robotics and/or data analytics
+Analyzing data / building reports for existing applications
+Working with our cyber security group to identify and address vulnerabilities
+"
+Diagnostic Cardiology Program - Software Intern,GE HealthCare,TRUE,"West Milwaukee, WI","The GE HealthCare Diagnostic Cardiology internship offers professional development through a challenging internship in a dynamic, fast-paced, medical technology business. Interns work on software engineering assignments guided by technical mentors.
+
+Responsibilities:
+
+You will be responsible for a summer project within the Diagnostic Cardiology business. Assignments may include:
+
+Designing, testing and/or debugging functions and features of ECG workstations or Cardiology Information Systems
+Data analytics
+Documentation"
+Software Engineering Intern,General Dynamics Mission Systems,TRUE,"Manassas, VA","Apply your classroom-learned skills to a program supporting the defense of our country. GDMS has an immediate opening for an Intern Engineer - Software to join our team. The position provides an opportunity to work on projects that support some of our nation’s fundamental defense services. GDMS employees work closely with esteemed customers to develop solutions that allow them to carry out high-stakes national security missions.
+
+The selected candidate will work with collaborative teams on various technical projects associated with our core mission.
+In addition to receiving a competitive wage, the Engineering Intern will enhance their skill set by working among a talented and technically accomplished group of colleagues.
+Interns will also enjoy a flexible work environment where contributions are recognized and rewarded."
+Research and Development Intern-Software Defined Vehicle Research Lab,General Motors,TRUE,"Warren, MI","In the Software Defined Vehicle Research lab, we transform the mobility experience by creating integrated solutions for autonomous and connected vehicles that our customers love. We are looking for R&D Interns to research, design, and develop groundbreaking technologies in autonomous, vehicle architectures, sensing, connectivity, simulation, and user experience. In this internship, you will plan and execute collaborative research to generate new knowledge and sophisticated technology for our vehicles. Our culture of ""Innovate Now"" gives you the opportunity to be creative and implement designs that could possibly be driving around in the near future!
+
+What You’ll Do:
+
+Conduct research and/or experiments to collect required data and validate research ideas in the Software Defined Vehicle Research Lab
+Document and present results. Depending on the assignment, results could lead to external publications and/or intellectual property
+Execute technical and special assignments
+Assist lab management in identifying mega trends in technology and business strategies in the automotive sector
+Develop and execute specific research plans, including concept generation, development, implementation, and validation
+Collaborate effectively with peers, management, operations groups, and outside organizations"
+Personal Systems Hardware Engineer Intern,HP,TRUE,United States,"Join us for a 12-week paid Summer 2024 Internship designed to let you apply your classroom learnings to real world challenges. Our internships have a thoughtful balance of networking, executive speakers, community involvement, big meaty projects (no paper filing here!) and fun!
+
+The Personal Systems organization creates a full ecosystem of digital experiences through advancing leadership in computing, creating immersive experiences through peripherals, and expanding digital services.
+
+As a Hardware Engineer Intern, you will work with a team with Personal Systems on projects to:
+Design new computer hardware, creating blueprints of computer equipment to be built
+Test completed models of the computer hardware they design
+Analyze test results and modify design as needed
+Update existing computer equipment so that it will work with new software
+Oversee the manufacturing process for computer hardware
+Maintain knowledge of computer engineering trends and new technology"
+Personal Systems Machine Learning Intern,HP,TRUE,"Austin, TX","The Personal Systems organization creates a full ecosystem of digital experiences through advancing leadership in computing, creating immersive experiences through peripherals, and expanding digital services.
+
+Personal Systems has an opening for a Research and Development intern in the area of computer vision and deep learning. We are looking for Master and/or PhD candidates who are passionate about applying your knowledge of deep learning in industrial applications, enjoying solving challenging deep learning problems, and contributing to successful products used by millions of people.
+
+Responsibilities
+Participate in cutting-edge research in deep learning for computer vision applications.
+Design and implement computer vision and deep learning algorithms for analyzing images and videos in real time
+Prepare training, validation, and testing dataset, label ground truth, and analyzing result
+Document experimental results, and file patent disclosures
+Collaborate with project team members, as well as engineers across company to meet research goals"
+Software Engineer Intern,JRC Integrated Systems,TRUE,"Crane, IN","We are seeking an analytical thinker with problem-solving skills and excellent attention to detail. The ideal candidate: enjoys ambitious work in a multi-project team environment using state-of-the-art tools and technology, is a self-starter who can work independently to complete tasks on schedule and demonstrates creativity with ""out-of-the-box"" solutions and high initiative to solve unassigned but project impacting issues.
+
+As a Software Engineer Intern, you will...
+
+Develop high-performance, reliable, testable and maintainable code using Java, Spring Boot, Angular 10 and above
+Participate in all aspects of software development activities, including design, coding, code review, testing, bug fixing, and code/API documentation
+Collaborate with engineers and participate in daily or weekly stand-ups and meetings
+Work both independently and collaboratively within a fast-paced development team, with clear, positive, and constructive communication"
+"New Product Introduction Engineering Intern, Hardware and Software",Keysight Technologies,TRUE,"Colorado Springs, CO","You will collaborate with manufacturing, R&D, and marketing teams world-wide through the development of Keysight’s new test and measurement products until successful launch into a production environment. The New Product Introduction (NPI) team performs design validation, test creation, and performance analysis for all new products during development. This is your opportunity to join a team that's bringing new products and technologies to the market faster and more efficiently than ever before!
+
+About the Team:
+
+Our NPI teams are multi-disciplinary, involving electrical engineering and software engineering. As an NPI (New Product Introduction) Engineer Intern, you will apply your Electrical Engineering and Software Engineering schooling, knowledge, and skills to one or more focused hands-on projects and have the opportunity to become a measurement expert yourself! You will be part of a product development team that collaborates closely with cross functional teams to design, develop, and test our Realtime Oscilloscopes, Quantum Computing Control Systems, Wireless 5G test solutions, and Probes and Accessories."
+R&D Software Intern,Keysight Technologies,TRUE,"Santa Rosa, CA","Our powerful, award-winning culture embraces a bold vision of where technology can take us and a passion for tackling challenging problems with industry-first solutions. Diversity, equity & inclusion are integral parts of our culture and drivers of innovation at Keysight. We believe that when people feel a sense of belonging, they can be more creative, innovative, and thrive at all points in their careers.
+
+Responsibilities include:
+Learning new development tools and processes
+Leaning about how the software in a Keysight digital oscilloscope works
+Designing, implementing, testing, and signal processing measurements and algorithms"
+Network Visibility Software Intern,Keysight Technologies,TRUE,"Santa Rosa, CA","Our powerful, award-winning culture embraces a bold vision of where technology can take us and a passion for tackling challenging problems with industry-first solutions. Diversity, equity & inclusion are integral parts of our culture and drivers of innovation at Keysight. We believe that when people feel a sense of belonging, they can be more creative, innovative, and thrive at all points in their careers.
+
+Responsibilities:
+Design, develop, document, and maintain software for class-leading network visibility platforms
+Collaborate with engineers from a multi-disciplinary development team
+Serving a role in feature development and issue resolution for Network Packet Broker platforms
+Working to design and prototype innovative new features on existing HW platforms and HW under development
+Developing high quality feature software independently and in teams
+Participating in design and code reviews"
+Software Automation Intern,Lucid Motors,TRUE,"Newark, CA","This position requires a passionate student with a basic understanding of coding in NodeJS, TypeScript, React, Python, and Java languages. Our ideal candidate exhibits a can-do attitude and approaches his or her work with vigor and determination. Candidates will be expected to demonstrate excellence in their respective fields, possess the ability to learn quickly, and to strive for perfection within a fast-paced environment.
+
+Role/Responsibilities:
+
+Contribute to updating and modifying current React-based applications
+Contribute to updating and modifying current automation scripts
+Develop test automation frameworks
+Work alongside and collaborate with other software engineers on the team
+Proactively learning about new technologies
+"
+"Software Engineering Intern, Implant and Robot Manufacturing",Neuralink,TRUE,"Fremont, CA","Software Engineering Interns at Neuralink have the opportunity to partner with our electrical, microfabrication, chip designers, and neuro and mechanical engineers - to accelerate our pathway to human-ready brain-computer interfaces. They work in a fast-paced, interdisciplinary environment to autonomously own and deliver critical value for the company's mission.
+
+Job Responsibilities:
+The Implant and Robot Manufacturing Software Intern will work closely with the Process & Change Engineers and the Quality Systems team to create internal tools used for manufacturing medical devices. The projects an intern would work on include:
+
+Design Master Record (DMR)
+The DMR is a combined record / list of all documents necessary to reliably manufacture devices which meet all safety, functional, and regulatory requirements of the device build plans.
+There are current processes for recording device DMRs, but none that easily scale or demonstrate what needs review after documents which have changed.
+Design History Record (DHR) [second priority]
+The DHR is a medical device's unit-specific lifecycle. Bolstering the ability for all Neuralink manufacturing production to receive, inspect, produce, package, and deliver medical devices, while keeping a trail of where components have been, is vital to supporting in-human surgeries.
+Neuralink needs the ability to organize, define, and change medical device hardware / software to enable continuous improvement and to release new devices that can change the health outcomes of millions of people with disabilities.
+
+The projects you will work on will enable engineers to understand the required documentation for new device build plans and demonstrate the propagation of changes for devices undergoing the engineering change process."
+Software Engineering Intern,Northrop Grumman,TRUE,"Roy, UT","An internship at Northrop Grumman is unique. Sure, you'll learn new skills, explore our enterprise, network with experts, connect with thought leaders, and finish with a resume that opens doors. But you'll gain something even more valuable: pride in what you've done. Join us and launch your career. We'll support you with training, employee resource groups, and our shared vision of global security.
+
+Responsibilities May Include
+
+Designs, develops, documents, tests and debugs applications software and systems that contain logical and mathematical solutions.
+Conducts multidisciplinary research and collaborates with equipment designers and/or hardware engineers in the planning, design, development, and utilization of electronic data processing systems for product and commercial software.
+Determines computer user needs; analyzes system capabilities to resolve problems on program intent, output requirements, input data acquisition, programming techniques and controls; prepares operating instructions; designs and develops compilers and assemblers, utility programs, and operating systems.
+Ensures software standards are met."
+Software Engineer Intern,Palo Alto Networks,TRUE,"Santa Clara, CA","We collaborate to build software that does not just work, but also solves real problems. Some of our most impactful projects started off with an engineer asking “why” and working with mentors and peers to create value. You will join a Research and Development (R&D) team that will give you the opportunity to make a global impact. One that protects our way of life in the digital age by preventing successful cyber attacks. A team looking for engineers who are passionate about technology, have an interest in cybersecurity, and also want to make a positive difference in the world that we live in. The projects our engineers are assigned will give real hands-on experience working on our products from our Strata, Prisma and Cortex organizations.
+
+Our Summer Internship Program from May-August or June-September provides you:
+1:1 mentorship
+Fun and engaging events that inspire your intellectual curiosity
+Opportunities to expand your knowledge and work on challenging projects
+Connections to other interns, recent grads, and employees across the company as well as our leaders
+
+Your Impact:
+Collaborate and execute alongside experience engineers
+Help us disrupt the cybersecurity industry using the latest and greatest technologies
+Write code that meaningfully improves our products and services
+Learn about the cybersecurity industry from the world's leading security experts"
+Software & Computer Engineering Intern,Pratt & Whitney,TRUE,"East Hartford, CT","Date Posted:
+
+2023-07-10
+
+Country:
+
+United States of America
+
+Location:
+
+PW100: East Hartford 400 Main Street, East Hartford, CT, 06118 USA
+
+Position Role Type:
+
+Hybrid
+
+Pratt & Whitney is working to once again transform the future of flight—designing, building and servicing engines unlike any the world has ever seen. And because transformation begins from within, we’re seeking the people to drive it. So, calling all curious.
+
+Come ready to explore and you’ll find a place where your talent takes flight—beyond the borders of title, a country or your comfort zone. Bring your passion and commitment and we’ll welcome you into a tight-knit team that takes our mission personally. Channel your drive to make a difference into shaping an organization and an industry that’s evolving fast to the future.
+
+Innovation through diversity of thought. At Pratt & Whitney, we believe diversity of thought enables creativity, innovation, and a foundation for inclusion. By fostering an inclusive culture, we accept a shared accountability and responsibility to recognize, sponsor, coach, hire and promote talent equally. We welcome our employees to be their whole - best - selves at work because trust, respect and integrity, are a part of our DNA.
+
+At Pratt & Whitney, the difference you make is on display every day. Just look up. Are you ready to go beyond?
+
+Job Summary:
+
+Pratt & Whitney, a recognized leading producer of the world’s most powerful jet engines, is looking for dedicated individuals to join the Control & Diagnostic Systems (CDS) team as a summer intern. CDS is a dynamic engineering organization focused on the development and certification of military, commercial and industrial gas turbine engine control, and diagnostic systems. CDS is responsible for all aspects of Pratt & Whitney engine control and diagnostic system development including requirements analysis & definition, system & software architecture, algorithm design, and product software design, verification & validation. We integrate across engine system modules and with the air vehicles and provide support throughout the complete engine product life cycle.
+
+Key Responsibilities:
+
+Be part of a team of engineers conducting verification activities on engine control system software
+Examine system and software requirements to determine the verifiability and method of verification
+Perform test coverage analysis
+Perform change impact analysis to identify the test impacts of changes to an existing software baseline
+Create and update test cases, procedures, and expected results
+Write test scripts and execute them on special test equipment
+Evaluate data for pass/fail
+Write test reports
+
+Basic Qualifications:
+
+Enrolled in a degree program in in Engineering (aerospace, mechanical, electrical, software, systems engineering or related discipline) or hard sciences (physics, mathematics, chemistry or computer science);
+Must be a U.S. Citizen. This position may require access to systems/tools that are restricted to individuals who possess US citizenship
+Fluent in English (verbal/written)
+Minimum GPA of 3.0
+Willing to re-locate to East Hartford Connecticut for the summer
+
+What is my role type?
+
+In addition to transforming the future of flight, we are also transforming how and where we work. We’ve introduced role types to help you understand how you will operate in our blended work environment. This role is:
+
+Hybrid: Employees who are working in Hybrid roles will work regularly both onsite and offsite. This means that responsibilities of the job need to be performed onsite on a regular basis.
+
+Candidates will learn more about role type and current site status throughout the recruiting process. For onsite and hybrid roles, commuting to and from the assigned site is the employee’s personal responsibility.
+
+RTX is An Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age or any other federally protected class.
+
+Privacy Policy and Terms:
+
+Click on this link to read the Policy and Terms
+
+01636660"
+Analytics Software Tester Intern,SAS,TRUE,United States,"Looking for *that* internship? The game-changing one that’ll help you learn, grow, and chart your path forward? You’ll find it at SAS. Our interns aren’t coffee runners – they do real, meaningful work. Our award-winning internship program is focused on development, culture, and community. We’ll help you grow professionally, find (or further) your passion, and make memorable connections that last beyond the summer.
+
+As An Intern, You Might
+Work closely with the IoT Applied Analytical Solutions development team. You will be responsible for software testing activities throughout the software release cycle. You will be responsible of testing the cloud-based SAS IoT products and solutions. You will numerically validate and compare with the state-of-the-art algorithms developed by SAS.
+Required Qualifications
+PhD student majoring in Statistics or Mathematics
+Knowledge of artificial intelligence, machine learning, or a related quantitative field. Computer Science graduates with focused learning in machine learning may also be considered.
+You have programmiing experience in one or more of the following languages: Python, R
+You’re curious, passionate, authentic, and accountable. These are our values  and influence everything we do.
+Strong communication skills – both written and verbal.
+Leadership abilities. Your past experiences demonstrate you’ll take initiative and go above and beyond the call of duty.
+You’re interested in the future of Analytics and embrace technology.
+You’re a college student enrolled in an accredited program, not graduating prior to December 2024.
+Preferred Qualifications
+Knowledge in at least one analytical discipline
+Scripting skills for test automation"
+Lean Systems Engineer (LSE) Intern,Savannah River Nuclear Solutions,TRUE,"Aiken, SC","The intern will be establishing and maintaining cost-effective web based solutions that meet the customer's business and technical requirements using Java, .NET, React and/or SQL queries. Other responsibilities include test automation, testing software upgrades/patches and premier customer support. Additionally, the intern is responsible for compliance with departmental policies and processes and for performing all duties and activities in a safe and ethical manner."
+Software Engineering Intern,Sierra Nevada Corporation,TRUE,United States,"Come start your career with some of the brightest and most innovative minds in the country. Get your hands on actual projects, and at the same time, prepare for a truly awesome career in aerospace and defense. This is not your parent’s internship program – you won’t be getting coffee and ordering lunch. Our Interns have the unique experience of getting both mentoring and coaching while working side by side with recognized industry experts on real-world assignments directly related to their field of study. Bring your knowledge and desire to learn, and we’ll provide the experience!
+
+As a Technical Intern, you'll ask questions, get involved, share your ideas, be part of a project team, attend planning meetings, complete assignments, absorb and learn from your team then apply that learning to active projects. You'll have the opportunity to learn fundamental business processes and procedures, build your technical foundation through practice and mentorship, and participate in an in-depth program built by our University Recruiting team which includes cross-functional workshops, Intern socials and meetings with leadership to gain understanding of the business and SNC’s culture."
+Software & Design Automation Engineer Intern,"Skyworks Solutions, Inc.",TRUE,United States,"We’re seeking an engineering student to develop software applications for managing our portfolio of integrated circuit blocks and automating their design. In this role, you will develop electronic design automation (EDA) tools used throughout the company. You will have the chance to develop software across a diverse set of technologies and domains including web back-end, web front-end, desktop applications, and EDA tool integration scripting. You will gain experience in all aspects of the software development cycle and learn a diverse set of skills.
+
+You will join the intellectual property (IP) management and design team. You will work with our software and design automation teams daily. You will also work closely with the end users, including design engineers and managers, to incorporate continuous feedback throughout the development process. This will require strong interpersonal and communication skills. You will have the opportunity to develop and present projects with high impact and visibility."
+Associate Software Engineer Intern,Spectrum,TRUE,United States,"As a Spectrum Intern, you’ll be essential to two teams — your respective department and your Intern peer group. Department and team-focused projects account for about 80% of your schedule. You’ll spend the other 20% on professional development sessions and networking activities, including the Kickoff Conference on May 29, webinars, community service, cross-functional project, and final presentations.
+
+Internship responsibilities may include:
+Development using existing tool set
+Unit testcase
+Code refactoring
+System analysis"
+Software Engineer (Weapons) Intern,Textron,TRUE,"Wilmington, MA","In this role, you will be responsible for:
+
+Providing engineering support on both next generation technologies and proven platforms that support and protect our deployed warfighter
+Participating in software development of new products across all phases of the design lifecycle from concept development to lab integration and evaluation concepts
+Opportunities that range from embedded control systems, to operator interfaces
+Working cohesively on a multi-functional team with a wide diversity of exciting technologies and products
+
+As an intern with Textron Systems, you’ll become part of a team that is ALL IN, providing enduring solutions for a complex world. TOGETHER, we put tomorrow’s technology in the world’s hands today. During the intern period of 06/03/2024 – 08/09/2024, you will connect with people across multiple disciplines and locations, giving you exposure to new projects and mentorship. Below are a few, of many, additional highlights of the intern experience:
+
+Networking with fellow interns, employees, and leadership across Textron Systems
+
+Opportunity to apply to full-time positions or return internships before they are open to external applicants.
+Employee Resource Group (ERG) participation including volunteer days, events, and collaborations."
+Software Engineer/Site Reliability Engineer Intern,The Aerospace Corporation,TRUE,United States,"Interns will be given the ability to work on multiple projects over the summer, covering different customers, focus areas, and tools. Internship tasking is intended to allow students to complement their academic studies with hands-on, career-building experience.
+
+What You’ll Be Doing:
+Perform software development for various cloud-related rapid prototyping activities
+Research and experiment with state-of-the-art software and hardware technologies
+Manage Linux systems to provide software-as-a-service, platform-as-a-service, and infrastructure-as-a-service capabilities
+Implement DevOps technologies to streamline development, testing, build, and deployment of applications
+Investigate bleeding edge cloud technologies for current and future implementation by customers in the space domain
+Receive training and mentorship from cloud and software development subject matter experts
+Learn about projects, tools, and technologies used across the enterprise"
+IT Engineer Intern,"The TJX Companies, Inc.",TRUE,Marlborough MA,"As an Engineer Intern within TJX Global IT, you will learn, contribute, and grow in a fast-paced, dynamic global IT organization, while applying your engineering knowledge to solve real-world technology challenges. TJX's global IT organizational structure means opportunities and problem solving are not limited to where you sit. We value what you bring to the table - and we value different perspectives and feedback.
+
+Depending on your interests, expertise, and our business needs, you could focus on one of several possible pathways:
+- Platform Engineering / Data and Automation Solutions
+- Security Engineering / Software Development / Product Configuration
+
+As An Engineer Intern, Your Responsibilities May Include:
+Hands-on training to facilitate learning
+Group project in collaboration with other interns and business leaders to contribute to IT strategy while solving a business challenge
+Collaborate with experienced technology engineers and specialists globally in an Agile environment to identify innovative technology solutions for all aspects of our global business
+Design, code and test solutions that make our platforms even better
+Learn about TJX’s business and technologies
+Review and evolve current processes
+Work autonomously and collaborate in groups to tackle challenges, advance projects, and complete assignments"
+Software Engineer Intern,The Toro Company,TRUE,United States,"If you join The Toro Company, you will have the opportunity to grow and build a successful career. Your responsibilities may include:
+Working on new product display platforms
+Implementing software tools for new processes
+Assisting in programming and developing diagnostic tools for new products
+Building/supporting in-house tools for the development team
+Conducting data analysis of field data
+Enhancing existing tools
+Providing general support to the software engineering team
+
+Additionally, you may be involved in requirements work, project planning, and project presentations."
+Hardware/Software Testing Intern,Trimble Inc.,TRUE,United States,"As a Trimble intern, you will not only gain valuable hands-on experience, but you will also be given challenging, meaningful tasks that will give you insight to what it's like working full-time as a valued member of a team. Our internships are designed to prepare you for your career journey, while growing as a professional through lunch and learns, professional development courses, team building activities, and social networking events with other interns whether you are in person or remote. Over the course of your internship, we want you to feel like you belong, innovate, and grow personally and professionally. Join Trimble’s community to have a global impact where we value you, your experience, and your skills to propel your career forward.
+
+Key Responsibilities:
+Provide pre-release technical information and technical content through documentation on workflows and performance to help product support team and documentation group
+Assist with post release assistance with troubleshooting issues
+Learn and perform best practices and product and solution testing
+Gather data to support new features and workflows
+Directly contribute to testing projects, learn best practices and help develop tools to support organizational and specific product teams."
+Cyber Security/Software Engineering Intern,UL Solutions,TRUE,United States,"The UL Solutions Identity Management & Security (IMS) team aims to make the cyber world more safe and secure. We work with our customers to test, validate/verify, certify, and advise on functional safety and cybersecurity of their products, systems, and ecosystems. We make sure the safety and security functions of products and systems work as they should, and we help customers test their connected technologies for hackability. Through our creation of cybersecurity frameworks and standards, we help our customers define and implement their security strategies.
+
+Below are examples of areas you may work in during your internship.
+
+Renewable energy functional safety
+Robotic functional safety
+Autonomous robot safety
+Automotive functional safety and autonomy safety
+Energy storage functional safety
+Electric vehicle charging functional safety
+Industrial functional safety
+Process industry functional safety
+Automotive cybersecurity
+Industrial cybersecurity"
+Software Engineer Intern,Uline,TRUE,"Pleasant Prairie, WI","Real work. Real training. Real growth. As a Software Engineer Intern at Uline, enhance your software engineering skills in a collaborative environment to design, develop and deliver custom solutions to big challenges. Uline continues to grow, creating new career opportunities and job security you can count on! Employees named Uline to Forbes 2023 list of America's Best Large Employers!
+
+Better together! This position is on-site, and we are looking for people who share our passion.
+
+Position Responsibilities:
+Contribute to the design, development, testing, deployment, support and maintenance of a microservices-based architecture hosted on Kubernetes, focusing on Spring Boot and Angular.
+Collaborate with software engineers and cross-functional teams to understand and address software issues.
+Research and implement new technologies and tools as appropriate.
+Work with software development teams to ensure consistency in software development and delivery procedures.
+Participate in code reviews, offering constructive feedback and gaining knowledge from experienced engineers."
+"Architecture, Engineering & Construction Software Intern",Unanet,TRUE,United States,"You will gain experience in and knowledge of how our business supports the Architecture, Engineering & Construction (AEC) industry vertical
+You will work with an executive mentor on projects associated to one of our fastest-growing customer verticals
+
+What You'll Do:
+Dedicate 8-12 hours per week to the internship
+Research the current and future applicability of artificial intelligence (AI) to the AEC industry, organize your research and present findings to senior leadership
+Learn about the key performance indicators (KPIs) that promote success in B2B Software
+User Power BI to build business dashboards
+Other projects as assigned"
+Software Engineer Intern,Vermeer Corporation,TRUE,United States,"The Embedded Software Engineer Intern helps integrate, test, and debug embedded software for Vermeer machine control systems. This position will also provide support to production and dealership technical personnel in regards to new product launches and technical issues as they relate to existing machines and software issues.
+
+Essential Duties and Responsibilities include the following. Other duties may be assigned.
+
+Demonstrate the Vermeer characteristics of caring culture, demonstrating agility, customer focused, and stewardship and model the associated behaviors.
+Help develop, integrate, test, and debug application firmware for Vermeer machine control systems.
+Assist other engineering groups, production, suppliers, safety, sales, service, etc. in order to provide engineering related information to meet project goal assigned."
+Software Consultant Intern ,Yeo & Yeo Technology,TRUE,United States,"The Software Consultant Intern will work on projects that center on solving business challenges through application software or custom software development. Responsibilities for this position may include software programming, researching new technologies and trends, collaboration on team projects, documentation of projects and source code, custom application testing and rollout.
+
+Key Objectives
+
+Learn new software programs very quickly
+Design creative and innovative solutions to solve business challenges
+Listen and speak with clients about their business needs
+Work on multiple projects completing them on time and within scope
+Participate in cross functional teams to achieve desired outcomes
+Document work performed for tracking and billing purposes"
