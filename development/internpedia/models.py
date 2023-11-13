@@ -43,6 +43,7 @@ class Internship(models.Model):
 
 #Our model for individual reviews.
 class Review(models.Model):
+    title = models.CharField(max_length=200)
     internship = models.ForeignKey(Internship, on_delete=models.CASCADE, related_name="review")
     review_text = models.TextField()
     startDate = models.DateField(auto_now_add=True)
