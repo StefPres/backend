@@ -24,7 +24,8 @@ class Internship(models.Model):
     rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.0)
 
     def update_rating(self):
-        avg_rating = self.review.aggregate(Avg('rating'))['rating__avg']
+        reviews = Review.objects.filter(internship=self)
+        avg_rating = reviews.aggregate(Avg('rating'))['rating__avg']
         if avg_rating is not None:
             self.rating = round(avg_rating, 2)
         else:
