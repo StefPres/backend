@@ -10,6 +10,9 @@ class Company(models.Model):
     description = models.TextField()
     website = models.URLField()
 
+    def __str__(self):
+        return self.title
+
 
 # Our model for individual internship listings
 class Internship(models.Model):
@@ -21,7 +24,8 @@ class Internship(models.Model):
     rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.0)
 
     def update_rating(self):
-        avg_rating = self.review.aggregate(Avg('rating'))['rating__avg']
+        reviews = Review.objects.filter(internship=self)
+        avg_rating = reviews.aggregate(Avg('rating'))['rating__avg']
         if avg_rating is not None:
             self.rating = round(avg_rating, 2)
         else:
@@ -31,11 +35,15 @@ class Internship(models.Model):
         self.update_rating()
         super().save(*args, **kwargs)
 
+    def __str__(self):
+        return self.title
+
     #note: remember we want to recommend TRENDING internships or reviews
     #what are things we can keep track of to signify that an internship or review is trending?
 
 #Our model for individual reviews.
 class Review(models.Model):
+    title = models.CharField(max_length=200)
     internship = models.ForeignKey(Internship, on_delete=models.CASCADE, related_name="review")
     review_text = models.TextField()
     startDate = models.DateField(auto_now_add=True)
@@ -72,13 +80,13 @@ class Review(models.Model):
 
     votes = models.ManyToManyField('Vote', related_name='reviews')
 
-    def downvote_count(self):
-        return self.votes.filter(voted=False).count()
-    
     def upvote_count(self):
         return self.votes.filter(voted=True).count()
     
-    
+    def downvote_count(self):
+        return self.votes.filter(voted=False).count()
+
+
 class Vote(models.Model):
     review = models.ForeignKey(Review, on_delete=models.CASCADE)
     voted = models.BooleanField(default=False)
