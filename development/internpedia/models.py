@@ -49,6 +49,7 @@ class Review(models.Model):
     threestar = 3
     fourstar = 4
     fivestar = 5
+    
     class starRating(models.IntegerChoices):
         onestar = 1
         twostar = 2
