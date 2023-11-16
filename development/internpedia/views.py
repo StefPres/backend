@@ -46,3 +46,4 @@ class InternshipSearchView(APIView):
         all_internships = Internship.objects.all()
         serializer = InternshipSerializer(all_internships, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
+

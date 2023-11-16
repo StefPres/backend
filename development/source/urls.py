@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from internpedia import views
-from .views import InternshipSearchView
+from internpedia.views import InternshipSearchView
 
 
 router = routers.DefaultRouter()
