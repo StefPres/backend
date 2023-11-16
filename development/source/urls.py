@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from internpedia import views
+from .views import InternshipSearchView
+
 
 router = routers.DefaultRouter()
 router.register(r'Internship', views.InternshipView, 'Internship')
@@ -27,5 +29,6 @@ router.register(r'Vote', views.VoteView, 'Vote')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)),
+    path('api/internships/search/', InternshipSearchView.as_view(), name='internship_search'),
 ]
