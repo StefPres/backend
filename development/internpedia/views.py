@@ -2,8 +2,8 @@ from django.shortcuts import render
 from rest_framework import viewsets
 from .serializers import InternshipSerializer
 from.serializers import VoteSerializer
-from .serializers import CompanySerializer, ReviewSerializer
-from .models import Internship, Vote
+from .serializers import CompanySerializer, ReviewSerializer, UserSerializer
+from .models import Internship, Vote, User
 from .models import Company, Review
 
 class InternshipView (viewsets.ModelViewSet):
@@ -21,3 +21,7 @@ class VoteView(viewsets.ModelViewSet):
 class ReviewView(viewsets.ModelViewSet):
     queryset = Review.objects.all()
     serializer_class = ReviewSerializer
+
+class UserView(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer

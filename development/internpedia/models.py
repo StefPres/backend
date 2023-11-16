@@ -57,6 +57,7 @@ class Review(models.Model):
     threestar = 3
     fourstar = 4
     fivestar = 5
+    
     class starRating(models.IntegerChoices):
         onestar = 1
         twostar = 2
@@ -85,9 +86,6 @@ class Review(models.Model):
     def downvote_count(self):
         return self.votes.filter(voted=False).count()
 
-    def __str__(self):
-        return self.title
-
 
 class Vote(models.Model):
     review = models.ForeignKey(Review, on_delete=models.CASCADE)
@@ -109,3 +107,15 @@ class Comment(models.Model):
 
     def __str__(self):
         return 'Comment {} by {}'.format(self.body, self.name)
+
+class User(models.Model):
+    email = models.EmailField(unique=True)
+    username = models.CharField(max_length=30, unique=True)
+    firstname = models.CharField(max_length=747, blank=True)
+    lastname = models.CharField(max_length=747, blank=True)
+    password = models.CharField(max_length=128, unique=True)
+    confirmPass = models.CharField(max_length=128, unique=True)
+
+    reviews = models.ManyToManyField('Review', related_name='users')
+
+    
