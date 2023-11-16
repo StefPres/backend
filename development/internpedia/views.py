@@ -5,6 +5,10 @@ from.serializers import VoteSerializer
 from .serializers import CompanySerializer, ReviewSerializer
 from .models import Internship, Vote
 from .models import Company, Review
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from django.db.models import Q
 
 class InternshipView (viewsets.ModelViewSet):
     queryset = Internship.objects.all()
@@ -21,3 +25,21 @@ class VoteView(viewsets.ModelViewSet):
 class ReviewView(viewsets.ModelViewSet):
     queryset = Review.objects.all()
     serializer_class = ReviewSerializer
+
+class InternshipSearchView(APIView):
+    def get(self, request):
+        query = request.query_params.get('query', '').strip()
+        if query:
+            # Perform a case-insensitive search on multiple fields using Q objects
+            results = Internship.objects.filter(
+                Q(title__icontains=query) |
+                Q(company__title__icontains=query) |
+                Q(description__icontains=query)
+            )
+            serializer = InternshipSerializer(results, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        
+        all_internships = Internship.objects.all()
+        serializer = InternshipSerializer(all_internships, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
