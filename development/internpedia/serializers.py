@@ -11,10 +11,10 @@ class InternshipSerializer(serializers.ModelSerializer):
         model = Internship
         fields = '__all__'
         
-    def to_representation(self, instance):
-        instance.avgNumRating = round(float(instance.avgNumRating), 2)
-        instance.site = instance.get_site_display()
-        return super().to_representation(instance)
+   # def to_representation(self, instance):
+   #     instance.avgNumRating = round(float(instance.avgNumRating), 2)
+   #     instance.site = instance.get_site_display()
+   #     return super().to_representation(instance)
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
