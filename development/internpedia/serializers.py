@@ -1,12 +1,19 @@
 from rest_framework import serializers
 from .models import Company, Internship, Review, Vote, Comment, User
+from urllib.parse import unquote  # Use unquote to decode URL
+
+class CustomURLField(serializers.URLField):
+    def to_representation(self, value):
+        return unquote(super().to_representation(value))
 
 class CompanySerializer(serializers.ModelSerializer):
+    company_logo = CustomURLField()
     class Meta:
         model = Company
         fields = '__all__'
 
 class InternshipSerializer(serializers.ModelSerializer):
+    company = CompanySerializer()
     class Meta:
         model = Internship
         fields = '__all__'

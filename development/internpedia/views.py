@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404
 from rest_framework import viewsets
 from .serializers import InternshipSerializer
 from.serializers import VoteSerializer
@@ -34,16 +34,23 @@ class InternshipSearchView(APIView):
     def get(self, request):
         query = request.query_params.get('query', '').strip()
         if query:
-            # Perform a case-insensitive search on multiple fields using Q objects
             results = Internship.objects.filter(
                 Q(title__icontains=query) |
                 Q(company__title__icontains=query) |
                 Q(description__icontains=query)
-            )
-            serializer = InternshipSerializer(results, many=True)
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        
-        all_internships = Internship.objects.all()
-        serializer = InternshipSerializer(all_internships, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+            ).select_related('company')  # Use select_related to fetch company details in a single query
 
+            serialized_results = InternshipSerializer(results, many=True).data
+
+            return Response(serialized_results, status=status.HTTP_200_OK)
+        
+        all_internships = Internship.objects.all().select_related('company')
+        serialized_all_internships = InternshipSerializer(all_internships, many=True).data
+
+        return Response(serialized_all_internships, status=status.HTTP_200_OK)
+
+class CompanyDetailView(APIView):
+    def get(self, request, company_id):
+        company = get_object_or_404(Company, pk=company_id)
+        serializer = CompanySerializer(company)
+        return Response(serializer.data, status=status.HTTP_200_OK)

@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from internpedia import views
-from internpedia.views import InternshipSearchView
+from internpedia.views import InternshipSearchView, CompanyDetailView
 
 
 router = routers.DefaultRouter()
@@ -31,4 +31,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
     path('api/internships/search/', InternshipSearchView.as_view(), name='internship_search'),
+    path('api/companies/<int:company_id>/', CompanyDetailView.as_view(), name='company_detail')
 ]
